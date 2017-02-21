@@ -2,7 +2,7 @@
 
 # Getting setup
 
-- [ ] Install the React Dev Tools
+- [ ] [Install the React Dev Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related)
 - [x] Install the Babel Syntax Highlighter with JSX Definitions
 
 # Dependencies
@@ -41,10 +41,15 @@ ReactDOM.render(
     - Doesn't change the actual DOM
 - Reusable Components 
     - Properties:
-        - this.props
-        - this.props.name
-        - etc. 
-    - .bind(this)
-        - "TypeError: Cannot read property of 'null'"
-        - binds that particular instance to the event so that 
-            this !== null
+        - props => outside => don't change
+        - this.props, this.props.name, etc. 
+        - .bind(this) method
+            - "TypeError: Cannot read property of 'null'"
+            - binds that particular instance to the event so that this !== null
+    - States
+        - state => inside => can change
+        - state is a JS object
+        - this.setState() method
+            - changes the state and rerenders the page
+
+
