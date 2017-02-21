@@ -28,5 +28,9 @@ ReactDOM.render(
 - Babel: 
     - Transpiler: Allows you to write future JS
     - Install Package: Babel (syntax highlighter)
-    - Must include script type: <script type="text/babel" src="/main.js">
+    - Must include script type: 
+```
+<script type="text/babel" src="/main.js">
+```
+
 - JSX
