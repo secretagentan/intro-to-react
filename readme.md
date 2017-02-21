@@ -1,14 +1,14 @@
 # Intro to React
 
-# Getting setup
+# Getting Set Up
 
-- [ ] [Install the React Dev Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related)
+- [x] [Install the React Dev Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related)
 - [x] Install the Babel Syntax Highlighter with JSX Definitions
 
 # Dependencies
 
-- [ ] React
-- [ ] ReactDOM
+- [x] React
+- [x] ReactDOM
 - [x] Babel
 
 # Rendering
@@ -21,6 +21,58 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
+# Reading
+
+[React.Component](https://facebook.github.io/react/docs/react-component.html)
+- [ ] What lifecycle method should you use to load data from a server?
+```
+componentWillMount()
+```
+
+- [ ] What methods get called right before something happens?
+```
+componentWillMount()
+```
+
+- [ ] What methods get called right after something happens?
+```
+componentDidMount()
+
+```
+
+- [ ] What method should be used to invalidate timers?
+```
+componentWillUnmount()
+```
+
+- [ ] What are the different ways this.setState can be called?
+```
+setState(nextState, callback)
+```
+```
+this.setState({mykey: 'my new value'});
+```
+```
+this.setState((prevState, props) => {
+  return {myInteger: prevState.myInteger + props.step};
+});
+```
+
+# Challenge
+
+Create a timer component with a start button.
+When a user clicks "Start" show number that increments every second.
+
+<Timer />
+
+Create a github component that gets JSON from:
+
+https://api.github.com/users/USER_NAME
+
+and renders it:
+
+<Github profile="USER_NAME" />
 
 # Notes
 

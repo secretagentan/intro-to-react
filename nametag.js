@@ -17,18 +17,19 @@ class NameTag extends React.Component {
       margin: '0',
       paddingBottom: '10px'
     }
-    const nameFieldStyle = {
+    const nameStyle = {
       backgroundColor: 'white',
       height: '58%',
-      fontSize: '40px',
+      fontSize: '54px',
+      fontWeight: 'bold',
       color: 'black',
-      paddingTop: '20px'
+      paddingTop: '16px'
     }
     return(
       <div style={tagStyle}>
         <h1 style={helloStyle}>H E L L O</h1>
         <p style={myNameIsStyle}>my name is</p>
-        <div style={nameFieldStyle} id="name-field">{this.props.name}</div>
+        <div style={nameStyle} id="name-field">{this.props.name}</div>
       </div>
     )
   }
