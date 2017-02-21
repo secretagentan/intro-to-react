@@ -61,16 +61,16 @@ this.setState((prevState, props) => {
 
 # Challenge
 
-Create a timer component with a start button.
-When a user clicks "Start" show number that increments every second.
+- [ ] Create a timer component with a start button.
+- [ ] When a user clicks "Start" show number that increments every second.
 ```
 <Timer />
 ```
-Create a github component that gets JSON from:
+- [ ] Create a github component that gets JSON from:
 ```
 https://api.github.com/users/USER_NAME
 ```
-and renders it:
+- [ ] and renders it:
 ```
 <Github profile="USER_NAME" />
 ```
