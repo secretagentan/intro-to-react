@@ -108,19 +108,19 @@ https://api.github.com/users/USER_NAME
 
 # Render a User
 
-Check out `https://api.github.com/users/fat`
+- [ ] Check out `https://api.github.com/users/fat`. You can hit this endpoint without any further authorization.
 
-You can hit this endpoint without any further authorization.
+Can you create a component `<Github user="fat" />` that:
 
-Can you create a component `<Github user="fat" />` that hits 
-the Github API for a user's profile during the ComponentDidMount 
-method using 'fetch', then sets the components state and renders 
-a profile card?
+- [ ] hits the Github API for a user's profile during the ComponentDidMount method using 'fetch', then
+
+- [ ] sets the components state and renders a profile card?
 
 # Render a Search Form
 
-Can you create a GithubSearchForm that displays an input for a Profile?
-When a user enters a profile and clicks "Enter" update the <Github /> component.
+- [ ] Can you create a GithubSearchForm that displays an input for a Profile?
+
+- [ ] When a user enters a profile and clicks "Enter" update the <Github /> component.
 
 # Resources
 
