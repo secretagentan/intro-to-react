@@ -22,11 +22,12 @@ class User extends React.Component {
 
   render() {
     console.log('we are rendering');
-    const divStyle = {
-      fontSize: '100px'
+    const style = {
+      fontSize: '50px',
+      width: '70px'
     }
     return (
-      <div style={divStyle} onClick={this.handleClick}>{this.state.counter}</div>
+      <button style={style} onClick={this.handleClick}>{this.state.counter}</button>
     );
   }
 }
