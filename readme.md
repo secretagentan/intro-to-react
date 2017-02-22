@@ -56,28 +56,28 @@ ReactDOM.render(
 
 - [x] [React.Component](https://facebook.github.io/react/docs/react-component.html)
 
-- [ ] What lifecycle method should you use to load data from a server?
+- [x] What lifecycle method should you use to load data from a server?
 ```
 componentWillMount()
 ```
 
-- [ ] What methods get called right before something happens?
+- [x] What methods get called right before something happens?
 ```
 componentWillMount()
 ```
 
-- [ ] What methods get called right after something happens?
+- [x] What methods get called right after something happens?
 ```
 componentDidMount()
 
 ```
 
-- [ ] What method should be used to invalidate timers?
+- [x] What method should be used to invalidate timers?
 ```
 componentWillUnmount()
 ```
 
-- [ ] What are the different ways this.setState can be called?
+- [x] What are the different ways this.setState can be called?
 ```
 setState(nextState, callback)
 ```
@@ -114,7 +114,7 @@ Can you create a component `<Github user="fat" />` that:
 
 - [ ] hits the Github API for a user's profile during the ComponentDidMount method using 'fetch', then
 
-- [ ] sets the components state and renders a profile card?
+- [ ] sets the component's state and renders a profile card?
 
 # Render a Search Form
 
