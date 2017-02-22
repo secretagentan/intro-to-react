@@ -1,17 +1,17 @@
 # Intro to React
 
-# Getting Set Up
+## Getting Set Up
 
 - [x] [Install the React Dev Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related)
 - [x] Install the Babel Syntax Highlighter with JSX Definitions
 
-# Dependencies
+## Dependencies
 
 - [x] React
 - [x] ReactDOM
 - [x] Babel
 
-# Rendering
+## Rendering
 
 Add the following the main.js
 
@@ -22,7 +22,7 @@ ReactDOM.render(
 );
 ```
 
-# Lecture Notes
+## Lecture Notes
 
 - React created by engineers at Facebook in 2013
 - Babel
@@ -52,7 +52,7 @@ ReactDOM.render(
         - this.setState() method
             - changes the state and rerenders the page
 
-# Reading
+## Reading
 
 - [x] [React.Component](https://facebook.github.io/react/docs/react-component.html)
 
@@ -90,7 +90,7 @@ this.setState((prevState, props) => {
 });
 ```
 
-# Challenge
+## Challenge
 
 - [ ] Create a timer component with a start button.
 - [ ] When a user clicks "Start" show number that increments every second.
@@ -106,7 +106,7 @@ https://api.github.com/users/USER_NAME
 <Github profile="USER_NAME" />
 ```
 
-# Render a User
+## Render a User
 
 - [ ] Check out `https://api.github.com/users/fat`. You can hit this endpoint without any further authorization.
 
@@ -116,13 +116,13 @@ Can you create a component `<Github user="fat" />` that:
 
 - [ ] sets the component's state and renders a profile card?
 
-# Render a Search Form
+## Render a Search Form
 
 - [ ] Can you create a GithubSearchForm that displays an input for a Profile?
 
 - [ ] When a user enters a profile and clicks "Enter" update the <Github /> component.
 
-# Resources
+## Resources
 
 - https://facebook.github.io/react/docs/react-component.html#componentdidmount
 - https://facebook.github.io/react/docs/react-component.html#setstate
